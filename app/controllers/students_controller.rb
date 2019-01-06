@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
 
   def edit
     toggle_active
-    binding.pry
+    redirect student_path
   end
 
   private
