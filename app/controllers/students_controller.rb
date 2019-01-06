@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
 
   def edit
     toggle_active
-    redirect "@student_path"
+    redirect "#{@student_path}"
   end
 
   private
